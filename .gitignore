@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local outputs
+report.json
+blocked_ips.txt
+
+# OS / Editor
+.DS_Store
+.vscode/
+tempCodeRunnerFile.py
