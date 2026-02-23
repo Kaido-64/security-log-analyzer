@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "logfile_path": "/Users/adibgharibe/Desktop/Arbeit/It-sec_Projekte/Security_Log_Analyzer/test_auth.log",
+    "window_seconds": 60,
+    "threshold": 5,
+    "top": 10,
+    "min_total": 1
+  },
+  "alerts": [
+    {
+      "ip": "123.45.67.89",
+      "first_time": "12:32:13",
+      "max_fails_in_window": 5
+    },
+    {
+      "ip": "10.0.0.5",
+      "first_time": "12:30:20",
+      "max_fails_in_window": 5
+    }
+  ],
+  "totals": [
+    {
+      "ip": "10.0.0.5",
+      "total_failed_logins": 7
+    },
+    {
+      "ip": "123.45.67.89",
+      "total_failed_logins": 6
+    },
+    {
+      "ip": "8.8.8.8",
+      "total_failed_logins": 2
+    },
+    {
+      "ip": "172.16.0.9",
+      "total_failed_logins": 1
+    }
+  ]
+}
